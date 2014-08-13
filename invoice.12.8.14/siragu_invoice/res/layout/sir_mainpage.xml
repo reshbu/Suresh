@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="94dp"
+        android:background="@drawable/top" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="3dp"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/sir_mp_bt_report"
+            android:layout_width="486dp"
+            android:layout_height="234dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_report"
+            android:height="234dp" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="5dp"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/sir_mp_billpage"
+            android:layout_width="486dp"
+            android:layout_height="234dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_bill" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="3dp"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/sir_mp_update"
+            android:layout_width="wrap_content"
+            android:layout_height="234dp"
+            android:layout_weight="1.00"
+            android:background="@drawable/button_update" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="5dp"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/sir_mp_about"
+            android:layout_width="wrap_content"
+            android:layout_height="233dp"
+            android:layout_weight="1.00"
+            android:background="@drawable/button_about" />
+
+    </LinearLayout>
+
+</LinearLayout>

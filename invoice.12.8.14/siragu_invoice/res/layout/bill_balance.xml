@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+  >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="                Transaction"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="284dp"
+        android:layout_height="3dp"
+        android:background="#3bafda" />
+
+    <RelativeLayout
+        android:id="@+id/sir_bill_balance_cash"
+        android:layout_width="284dp"
+        android:layout_height="150dp"
+        android:background="#BDBEC0" >
+
+        <TextView
+            android:id="@+id/sir_gv_cat_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Amount Given :"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+          />
+
+        <Button
+            android:id="@+id/sir_bill_balnce_bt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/custom_btn_black_pearl"
+            android:text="Cancel"
+            android:textColor="#F7F6F6" />
+
+        <TextView
+            android:id="@+id/sir_bill_balance_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/sir_bill_balnce_bt_cancel"
+            android:layout_toRightOf="@+id/textView2"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ff0000" />
+
+        <Button
+            android:id="@+id/sir_bill_balancel_bt_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/sir_bill_balnce_bt_cancel"
+            android:layout_alignBottom="@+id/sir_bill_balnce_bt_cancel"
+            android:layout_toRightOf="@+id/textView2"
+            android:background="@drawable/custom_btn_black_pearl"
+            android:text="Ok"
+            android:textColor="#F7F6F6" />
+
+        <EditText
+            android:id="@+id/sir_ed_bill_balance_cash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/sir_gv_cat_header"
+            android:ems="10"
+            android:inputType="number"
+           ><!--  android:textColor="#F7F6F6" -->
+          
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/sir_ed_bill_balance_cash"
+            android:text=" Balance Amount : "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+           /> <!--  android:textColor="#F7F6F6"  -->
+            
+    </RelativeLayout>
+
+</LinearLayout>

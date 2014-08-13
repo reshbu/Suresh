@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:paddingTop="3dp"   
+    android:paddingRight="3dp"
+    android:paddingLeft="2dp"
+    android:layout_height="wrap_content"
+   
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/gv_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="90dip"
+            android:background="@drawable/grid_button"
+            android:text="Button"
+            android:width="200dip" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/gv_button"
+            android:layout_alignRight="@+id/gv_button"
+            android:background="#8c000000"
+            android:layout_alignTop="@+id/pro_grid_view" />
+
+        <TextView
+            android:id="@+id/pro_grid_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/gv_button"
+            android:layout_alignRight="@+id/gv_button"
+            android:text="Medium Text"
+               android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+</LinearLayout>

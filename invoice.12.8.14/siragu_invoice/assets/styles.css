@@ -1,0 +1,36 @@
+
+
+
+ 
+button#sir_bp_bt_submit{
+top:100px;
+left:265px;
+width:30%;
+text-align:center;
+color:white;
+background-color: #6a79b0;
+border-right:1px solid black;
+border-bottom:1px solid black;
+
+}
+button#sir_bp_bt_submit:active{
+background-color: #5968a0;
+}
+
+
+
+
+
+
+ 
+button#gv_button{
+text-align:center;
+color:white;
+background-color: #6a79b0;
+border-right:1px solid black;
+border-bottom:1px solid black;
+
+}
+button#gv_button:active{
+background-color: #5968a0;
+}
